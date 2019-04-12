@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+Time for actual transparency.
+
+Linux ares.matrix.org 3.16.0-4-amd64 #1 SMP Debian 3.16.39-1+deb8u2 (2017-03-07) x86_64 GNU/Linux
+Linux hera.matrix.org 4.9.0-7-amd64 #1 SMP Debian 4.9.110-3+deb9u2 (2018-08-13) x86_64 GNU/Linux
+Linux themis.matrix.org 3.16.0-5-amd64 #1 SMP Debian 3.16.51-3+deb8u1 (2018-01-08) x86_64 GNU/Linux
+Linux hebe 4.9.0-8-amd64 #1 SMP Debian 4.9.110-3+deb9u4 (2018-08-21) x86_64 GNU/Linux
+Linux nyx.matrix.org 4.9.0-6-amd64 #1 SMP Debian 4.9.82-1+deb9u2 (2018-02-21) x86_64 GNU/Linux
+Linux hermes.matrix.org 3.16.0-4-amd64 #1 SMP Debian 3.16.51-2 (2017-12-03) x86_64 GNU/Linux
+Linux aphrodite.matrix.org 4.9.0-6-amd64 #1 SMP Debian 4.9.88-1+deb9u1 (2018-05-07) x86_64 GNU/Linux
+Linux pheme.matrix.org 3.16.0-4-amd64 #1 SMP Debian 3.16.43-2+deb8u2 (2017-06-26) x86_64 GNU/Linux
+Linux homonoia.matrix.org 3.16.0-4-amd64 #1 SMP Debian 3.16.39-1+deb8u2 (2017-03-07) x86_64 GNU/Linux
+Linux hephaestus.matrix.org 3.16.0-4-amd64 #1 SMP Debian 3.16.43-2+deb8u3 (2017-08-15) x86_64 GNU/Linux
+Linux clio.matrix.org 4.9.0-8-amd64 #1 SMP Debian 4.9.110-3+deb9u6 (2018-10-08) x86_64 GNU/Linux
+Linux juventas.matrix.org 4.9.0-8-amd64 #1 SMP Debian 4.9.110-3+deb9u5 (2018-09-30) x86_64 GNU/Linux
+Linux iris.matrix.org 4.9.0-8-amd64 #1 SMP Debian 4.9.110-3+deb9u6 (2018-10-08) x86_64 GNU/Linux
+Linux hypnos.matrix.org 4.9.0-8-amd64 #1 SMP Debian 4.9.110-3+deb9u6 (2018-10-08) x86_64 GNU/Linux
+Linux demeter.matrix.org 4.9.0-8-amd64 #1 SMP Debian 4.9.110-3+deb9u3 (2018-08-19) x86_64 GNU/Linux
+Linux phobos.matrix.org 4.9.0-8-amd64 #1 SMP Debian 4.9.110-3+deb9u3 (2018-08-19) x86_64 GNU/Linux
+Linux eris.matrix.org 4.9.0-6-amd64 #1 SMP Debian 4.9.88-1+deb9u1 (2018-05-07) x86_64 GNU/Linux
+
+root@hebe:/var/lib/postgresql# df -h
+df -h
+Filesystem                            Size  Used Avail Use% Mounted on
+udev                                   63G     0   63G   0% /dev
+tmpfs                                  13G   67M   13G   1% /run
+/dev/vda1                             505G  7.6G  492G   2% /
+tmpfs                                  63G   28K   63G   1% /dev/shm
+tmpfs                                 5.0M     0  5.0M   0% /run/lock
+tmpfs                                  63G     0   63G   0% /sys/fs/cgroup
+/dev/mapper/data--group-data--volume  9.5T  6.7T  2.4T  74% /mnt/data
+tmpfs                                  13G     0   13G   0% /run/user/0
+tmpfs                                  13G     0   13G   0% /run/user/1002
+
+$ cat users.txt | grep arathorn | head -n1
+@arathorn:matrix.org|$2a$12$u1ual.yp7rnSjXRgwZ5ZIOxa0D9txCT64i3Y/jmbtgQ6ByxVr59zu
+$ wc -l users.txt
+5493973
+
+See you soon.
+</pre>
+</body>
